@@ -1,5 +1,5 @@
 <?php
-include_once $_SERVER['DOCUMENT_ROOT'] . '/CasoEstudio1/Model/ConexionModel.php';
+include_once $_SERVER['DOCUMENT_ROOT'] . '/CasoEstudio1/Model/UtilitarioModel.php';
 
 function RegistrarMatriculaModel($identificacion, $monto, $tipoCurso)
 {

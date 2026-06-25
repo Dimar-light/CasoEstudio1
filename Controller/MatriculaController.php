@@ -11,7 +11,7 @@ if (isset($_POST["btnRegistrarMatricula"])) {
     $respuesta = RegistrarMatriculaModel($identificacion, $monto, $tipoCurso);
 
     if ($respuesta === true) {
-        header("Location: /CasoEstudio1/View/ConsultaMatricula.php");
+        header("Location: /CasoEstudio1/View/vInicio/ConsultaMatricula.php");
         exit();
     } else {
         $mensajeAlerta = $respuesta;
